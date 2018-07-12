@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--android:orderInCategory：菜单项的优先级，也就是顺序，只能设置大于正整数，数值越大菜单项越靠前-->
+
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="80"
+        android:title="1111"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="90"
+        android:title="2222"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="100"
+        android:title="3333"
+        app:showAsAction="never" />
+
+
+</menu>
